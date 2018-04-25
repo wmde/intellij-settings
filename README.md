@@ -29,6 +29,7 @@ hotkey after finishing your line(s).
 
 The goal is explicitly not to pin down everything that can be possibly pinned down. There are
 differences between developers and teams that do not contradict the WMDE code style, and where
-possible, the configuration in this repository should not interfer with those differences.
+possible, the configuration in this repository should not interfere with those differences.
 Due to the way the IDE works, sometimes it is however needed to pick one particular approach
-over another, due to the lack of an "allow both" option in the configuration.
+over another, due to the lack of an "allow both" option in the configuration. If you want to
+have a more strict version with your own preferences, please create a new CS config file.
