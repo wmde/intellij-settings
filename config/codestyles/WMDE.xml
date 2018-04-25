@@ -250,6 +250,11 @@
       </rules>
     </arrangement>
   </codeStyleSettings>
+  <codeStyleSettings language="PostCSS">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="SQL">
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
