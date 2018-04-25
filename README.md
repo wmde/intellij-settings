@@ -1,6 +1,6 @@
 # IntelliJ settings
 
-Settings for IntelliJ based IDEs, currently only holding a PHP codestyle.
+Settings for IntelliJ based IDEs, currently only a WMDE code style.
 
 ## Using the settings
 
@@ -16,3 +16,19 @@ Example location of the settings directory on Kubuntu:
     
 You can find the directory via the IDE itself by opening File -> Import Settings, which should
 select the settings directory. (The import/export functionality does not work with this git repo.)
+
+## WMDE code style
+
+This is the code style used at WMDE, originally based on the MediaWiki code style, though with
+some additions, primarily for recent versions of PHP.
+
+The goal of the configuration in this repository is that you can use the "Reformat Code" IDE
+action without it breaking the formatting already there. This allows you to not immediately fix
+spacing issues and the like while you are writing code, and instead just hit the appropriate
+hotkey after finishing your line(s).
+
+The goal is explicitly not to pin down everything that can be possibly pinned down. There are
+differences between developers and teams that do not contradict the WMDE code style, and where
+possible, the configuration in this repository should not interfer with those differences.
+Due to the way the IDE works, sometimes it is however needed to pick one particular approach
+over another, due to the lack of an "allow both" option in the configuration.
